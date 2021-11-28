@@ -14,5 +14,6 @@ BEGIN
         IF (sentence[i]=' ') THEN
             sum_of_words:=sum_of_words+1
         END_IF
+        sentence[i]='a' 'e' 'o'
     END_FOR
 END
